@@ -116,10 +116,10 @@
     .nav-links-mobile {
         display: block;
         text-align: center;
-        padding: 1.5rem;
+        padding: 0.8rem;
         margin: 2rem auto;
         border-radius: 4px;
-        width: 80%;
+        width: 30%;
         background: #4ad9e4;
         text-decoration: none;
         color: #fff;
