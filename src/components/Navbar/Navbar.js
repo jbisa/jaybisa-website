@@ -27,8 +27,7 @@ class Navbar extends Component {
                             </li>
                         )
                     })}                    
-                </ul>
-                <Button>Resume</Button>        
+                </ul>  
             </nav>
         )
     }
