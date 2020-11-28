@@ -7,9 +7,9 @@ html, body {
   height: 100%;
 }
 
-section {
+.section {
   padding-top: 5rem !important;
-  padding-bottom: 5rem !important;
+  padding-bottom: 35rem !important;
 }
 
 .page-wrap {

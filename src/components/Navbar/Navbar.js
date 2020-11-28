@@ -13,7 +13,7 @@ class Navbar extends Component {
 
     render() {
         return(
-            <nav className="NavbarItems">
+            <nav className="NavbarItems sticky-top">
                 <h1 className="navbar-logo">JB <i className="fas fa-headphones"></i></h1>
                 <div className="menu-icon" onClick={this.handleClick}>
                     <i className={this.state.clicked ? 'fas fa-times' : 'fas fa-bars'}></i>
