@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button } from '../Button';
 import { MenuItems } from './MenuItems';
+import { Link } from 'react-scroll';
 import './Navbar.css';
 
 class Navbar extends Component {
@@ -20,11 +21,9 @@ class Navbar extends Component {
                 <ul className={this.state.clicked ? 'nav-menu active' : 'nav-menu'}>
                     {MenuItems.map((item, index) => {
                         return (
-                            <li key={index}>
-                                <a className={item.cName} href={item.url}>
-                                    {item.title}
-                                </a>
-                            </li>
+                            <Link key={index} activeClass="active" className={item.cName} to={item.url} spy={true} smooth={true} duration={1000}>
+                                {item.title}
+                            </Link>
                         )
                     })}                    
                 </ul>  
