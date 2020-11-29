@@ -10,10 +10,10 @@ const Education = () => {
 
     return(
         <section id="#education" className="container py-5 section">
-            <h1>Education</h1>
+            <h1 data-aos="fade-up">Education</h1>
             <div className="grids">
-                <div data-aos="fade-up" className="boxes">Syracuse University</div>
-                <div data-aos="fade-up" className="boxes">Worcester Polytechnic Institute</div>
+                <div data-aos="fade-right" className="boxes">Syracuse University</div>
+                <div data-aos="fade-right" className="boxes">Worcester Polytechnic Institute</div>
             </div>
         </section>
     );

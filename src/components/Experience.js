@@ -10,8 +10,8 @@ const Experience = () => {
 
     return(
         <section id="#experience" className="container py-5 section">
-            <h1>Experience</h1>
-            <p>Here's my journey so far...</p>
+            <h1 data-aos="fade-up">Experience</h1>
+            <p data-aos="fade-up">Here's my journey so far...</p>
             <div className="grids">
                 <div data-aos="fade-right" className="boxes">Wayfair</div>
                 <div data-aos="fade-right" className="boxes">Veracode</div>
