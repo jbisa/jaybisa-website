@@ -7,6 +7,32 @@ html, body {
   height: 100%;
 }
 
+.jumbotron {
+  background-image: url("assets/jumbotron2.jpeg");
+  /* Image in the center of container */
+  /*background-position: center center;*/
+  background-position: 0 50%;
+  /*background-size: auto 100%;*/
+  background-repeat: no-repeat; 
+  border-radius: 0 !important;
+  background-size: cover;
+  height: 800px;
+}
+
+.container-jumbotron {
+  padding-top: 13rem !important;
+}
+
+.jumbotron-text-box {
+  background-color: white;
+  opacity: 0.8;
+  border-radius: 6px;
+}
+
+.button {
+  padding-top: 5rem !important;
+}
+
 .section {
   padding-top: 5rem !important;
   padding-bottom: 35rem !important;

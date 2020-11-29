@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button } from '../Button';
 import { MenuItems } from './MenuItems';
 import { Link } from 'react-scroll';
 import './Navbar.css';
