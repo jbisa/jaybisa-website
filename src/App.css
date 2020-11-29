@@ -52,6 +52,14 @@ html, body {
   padding-bottom: 50rem !important;
 }
 
+.header {
+  color: #C8963E;
+}
+
+.highlight {
+  color: #97D8C4;
+}
+
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */

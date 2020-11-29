@@ -9,7 +9,7 @@ const Skills = () => {
 
     return(
         <section id="#skills" className="container py-5 section">
-            <h1 data-aos="fade-up">Skills</h1>
+            <h1 className="header" data-aos="fade-up">Skills</h1>
             <p data-aos="fade-up">The following are my skills...</p>
         </section>
     )

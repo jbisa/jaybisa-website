@@ -1,7 +1,7 @@
 .boxes {
-    margin: 20px;
-    margin-top: 150px;
-    background-color: #82204A;
+    /*margin: 20px;
+    margin-top: 150px;*/
+    background-color: #C8963E;
     overflow: hidden;
     height: 200px;
     max-height: 35vh;
@@ -10,11 +10,32 @@
 }
 
 .boxes:hover {
-    transform: scale(1.5) !important; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    transform: scale(1.1) !important; /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
     transition: transform .2s !important; /* Animation */
 }
 
 .grids {
     max-width: 80%;
     margin: auto;
+}
+
+.timeline-line {
+    height: 200px;
+}
+
+.timeline-line:after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 50%;
+    border-left: 3px dotted #97D8C4;
+    transform: translate(-50%);
+}
+
+.timeline-year-text {
+    float: left;
+    min-width: 10em;
+    color: #97D8C4;
 }

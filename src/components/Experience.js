@@ -10,12 +10,22 @@ const Experience = () => {
 
     return(
         <section id="#experience" className="container py-5 section">
-            <h1 data-aos="fade-up">Experience</h1>
-            <p data-aos="fade-up">Here's my journey so far...</p>
+            <h1 className="header" data-aos="fade-up">Experience</h1>
             <div className="grids">
-                <div data-aos="fade-right" className="boxes">Wayfair</div>
-                <div data-aos="fade-right" className="boxes">Veracode</div>
-                <div data-aos="fade-right" className="boxes">Morpho Detection, Inc.</div>
+                <div data-aos="fade-right">
+                    <p className="timeline-year-text">2016-Present Day</p>
+                    <div className="boxes">Wayfair</div>
+                </div>
+                <div data-aos="fade-right">
+                    <div className="timeline-line"></div>
+                    <p className="timeline-year-text">2013-2016</p>
+                    <div className="boxes">Veracode</div>
+                </div>
+                <div data-aos="fade-right">
+                    <div className="timeline-line"></div>
+                    <p className="timeline-year-text">2012</p>
+                    <div className="boxes">Morpho Detection, Inc</div>
+                </div>
             </div>
         </section>
     );
