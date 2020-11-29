@@ -12,8 +12,8 @@ const Education = () => {
         <section id="#education" className="container py-5 section">
             <h1>Education</h1>
             <div className="grids">
-                <div data-aos="flip-left" className="boxes">Syracuse University</div>
-                <div data-aos="flip-right" className="boxes">Worcester Polytechnic Institute</div>
+                <div data-aos="fade-up" className="boxes">Syracuse University</div>
+                <div data-aos="fade-up" className="boxes">Worcester Polytechnic Institute</div>
             </div>
         </section>
     );

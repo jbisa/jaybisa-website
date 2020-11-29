@@ -33,6 +33,10 @@ html, body {
   padding-top: 5rem !important;
 }
 
+.jumbotron-button {
+  margin: 3rem;
+}
+
 .section {
   padding-top: 5rem !important;
   padding-bottom: 20rem !important;

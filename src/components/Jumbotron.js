@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Button } from './Button';
 
 class Jumbotron extends Component {
     render() {
@@ -11,7 +10,10 @@ class Jumbotron extends Component {
                         <h2>I build software to solve complex problems.</h2>
                     </div>
                     <div className="button">
-                        <p className="lead"><a className="btn btn-primary btn-lg" href="#" role="button">Resume</a></p>
+                        <p className="lead">
+                            <a className="btn btn-primary btn-lg jumbotron-button" href="#" role="button">Resume</a>
+                            <a className="btn btn-primary btn-lg jumbotron-button" href="mailto:jay.bisa@gmail.com" role="button">Get In Touch</a>
+                        </p>
                     </div>
                 </div>
             </div>
