@@ -13,7 +13,7 @@ class About extends Component {
                     guarantee badges that customers see on site, based on supplier performance metrics. My team has built scalable software to gather performance metrics data,
                     testable and maintainable software to consume the data to automatically adjust ship date estimations or badging eligibility, and domain driven software to
                     expose the results and underlying data to external teams via Kafka streams. We also built a scalable .NET web service (as well as a library), to calculate
-                    ship date estimations on-the-fly, which consumes 4000 req/sec, all while meeting client SLAs.
+                    ship date estimations on-the-fly, which consumes 4000 req/sec, all while meeting client SLAs!
                 </p>
                 <p>Here are the technologies I've been using recently:</p>
                 <ul className="list">
@@ -27,6 +27,7 @@ class About extends Component {
                     <li>Kubernetes</li>
                     <li>Docker</li>
                 </ul>
+                <p>Outside of work, when I'm not working on a side project, I like to produce music on Logic Pro X and DJ on Twitch!</p>
             </section>
         )
     }

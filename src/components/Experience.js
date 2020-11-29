@@ -13,9 +13,9 @@ const Experience = () => {
             <h1>Experience</h1>
             <p>Here's my journey so far...</p>
             <div className="grids">
-                <div data-aos="fade-left" className="boxes">Wayfair</div>
+                <div data-aos="fade-right" className="boxes">Wayfair</div>
                 <div data-aos="fade-right" className="boxes">Veracode</div>
-                <div data-aos="fade-left" className="boxes">Morpho Detection, Inc.</div>
+                <div data-aos="fade-right" className="boxes">Morpho Detection, Inc.</div>
             </div>
         </section>
     );
