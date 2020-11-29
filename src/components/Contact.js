@@ -10,6 +10,7 @@ const Contact = () => {
     return(
         <section id="#contact" className="container py-5 section">
             <h1 data-aos="fade-up">Contact</h1>
+            <p data-aos="fade-up">Although I'm not seeking new opportunities at the moment, my inbox is always open. Feel free to reach out and I will get back to you as soon as possible!</p>
             <p data-aos="fade-up"><a className="btn btn-primary btn-lg jumbotron-button" href="mailto:jay.bisa@gmail.com" role="button">Get In Touch</a></p>
         </section>
     )
