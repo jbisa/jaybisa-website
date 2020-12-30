@@ -52,6 +52,10 @@ html, body {
   padding-bottom: 50rem !important;
 }
 
+.section-last {
+  padding-bottom: 30rem !important;
+}
+
 .header {
   color: #EFF2F1;
   margin-bottom: 30px;
@@ -73,6 +77,6 @@ html, body {
 }
 
 .footer, .page-wrap:after {
-  background-color: #EFF2F1;
+  background-color: #14213D;
   height: 60px;
 }
