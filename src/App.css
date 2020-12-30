@@ -80,3 +80,30 @@ html, body {
   background-color: #14213D;
   height: 60px;
 }
+
+/* iPhone 6, 7, 8 ----------- */
+@media screen and (max-width: 960px) {
+  .display-4 {
+    font-size: 2.5rem;
+  }
+
+  .h2, h2 {
+    font-size: 1rem;
+  }
+
+  .jumbotron-button {
+    margin: 1rem;
+    background-color: #14213D;
+    border-color: #2A9D8F;
+  }
+  
+  .jumbotron-button:hover {
+    background-color: #97D8C4;
+    color: #006992;
+  }
+
+  .section {
+    padding-top: 2rem !important;
+    padding-bottom: 50rem !important;
+  }
+}

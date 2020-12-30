@@ -100,3 +100,93 @@ p.aligned {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+/* iPhone 6, 7, 8 ----------- */
+@media screen and (max-width: 960px) {
+    .boxes-title {
+        margin-left: 0px !important;
+        display: block;
+        float: right;
+        background-color: #14213D;
+        overflow: hidden;
+        height: 80px;
+        max-height: 45vh;
+        box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .boxes-content-xsm {
+        margin-top: 10px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        background-color: #14213D;
+        float: right;
+        overflow: hidden;
+        height: 100px;
+        max-height: 45vh;
+        box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .boxes-content-sm {
+        margin-top: 10px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        background-color: #14213D;
+        float: right;
+        overflow: hidden;
+        height: 100px;
+        max-height: 45vh;
+        box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .boxes-content-md {
+        margin-top: 10px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        background-color: #14213D;
+        float: right;
+        overflow: hidden;
+        height: 100px;
+        max-height: 45vh;
+        box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px 10px 10px 10px;
+    }
+    
+    .boxes-content-lg {
+        margin-top: 10px;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
+        background-color: #14213D;
+        float: right;
+        overflow: hidden;
+        height: 100px;
+        max-height: 45vh;
+        box-shadow: 0px 12px 18px -6px rgba(0, 0, 0, 0.3);
+        border-radius: 10px 10px 10px 10px;
+    }
+
+    .timeline-line {
+        height: 200px;
+        float: right;
+    }
+    
+    .timeline-line:after {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        top: 0;
+        bottom: 0;
+        left: 50%;
+        border-left: 3px dotted #EFF2F1;
+        transform: translate(-50%);
+    }
+
+    p.aligned {
+        position: relative;
+        padding: 0.8em 0;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+}
