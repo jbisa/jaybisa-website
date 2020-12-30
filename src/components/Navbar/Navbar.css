@@ -1,5 +1,5 @@
 .NavbarItems {
-    background: #006992;
+    background: #14213D;
     height: 80px;
     display: flex;
     justify-content: center;
@@ -8,7 +8,7 @@
 }
 
 .navbar-logo {
-    color: #97D8C4;;
+    color: #EFF2F1;
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
