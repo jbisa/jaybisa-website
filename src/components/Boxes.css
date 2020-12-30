@@ -1,6 +1,6 @@
 .boxes {
     margin-left: 200px;
-    background-color: #C8963E;
+    background-color: #14213D;
     overflow: hidden;
     height: 500px;
     max-height: 45vh;
@@ -29,12 +29,26 @@
     top: 0;
     bottom: 0;
     left: 50%;
-    border-left: 3px dotted #97D8C4;
+    border-left: 3px dotted #EFF2F1;
     transform: translate(-50%);
 }
 
 .timeline-year-text {
     float: left;
     min-width: 10em;
-    color: #E9C46A;
+    color: #EFF2F1;
+}
+
+p.centered {
+    position: relative;
+    padding: 0.8em 0;
+    margin: 0;
+    text-align:center;
+}
+
+p.aligned {
+    position: relative;
+    padding: 0.4em 0;
+    margin-left: 20px;
+    margin-right: 20px;
 }

@@ -38,8 +38,8 @@ html, body {
 
 .jumbotron-button {
   margin: 3rem;
-  background-color: #006992;
-  border-color: #97D8C4;
+  background-color: #14213D;
+  border-color: #2A9D8F;
 }
 
 .jumbotron-button:hover {
@@ -53,11 +53,12 @@ html, body {
 }
 
 .header {
-  color: #2A9D8F;
+  color: #EFF2F1;
+  margin-bottom: 30px;
 }
 
 .highlight {
-  color: #2A9D8F;
+  color: #FCA311;
 }
 
 .page-wrap {
