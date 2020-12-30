@@ -14,12 +14,16 @@ const Education = () => {
             <div className="grids">
                 <div data-aos="fade-right">
                     <p className="timeline-year-text">2011-2013</p>
-                    <div className="boxes">Syracuse University</div>
+                    <div className="boxes-school">
+                        <p class="centered highlight">Syracuse University - MS, Computer Science</p>
+                    </div>
                 </div>
                 <div data-aos="fade-right">
                     <div className="timeline-line"></div>
                     <p className="timeline-year-text">2006-2010</p>
-                    <div className="boxes">Worcester Polytechnic Institute</div>
+                    <div className="boxes-school">
+                        <p class="centered highlight">Worcester Polytechnic Institute - BS, Biomedical Engineering - Minor, Electrical & Computer Engineering</p>
+                    </div>
                 </div>
             </div>
         </section>
