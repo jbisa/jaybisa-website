@@ -32,7 +32,7 @@ const About = () => {
                 <li>Kubernetes</li>
                 <li>Docker</li>
             </ul>
-            <p data-aos="fade-up">Outside of work, when I'm not working on a side project, I like to produce music on Logic Pro X and DJ on Twitch!</p>              
+            <p data-aos="fade-up">Outside of work, when I'm not working on a side project, I like to produce music on Logic Pro X and DJ on <a href="https://www.twitch.tv/jayletsgetit" target="_blank">Twitch!</a></p>              
         </section>
     )
 }
