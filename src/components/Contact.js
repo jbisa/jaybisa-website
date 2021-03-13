@@ -8,10 +8,10 @@ const Contact = () => {
     }, []);
 
     return(
-        <section id="#contact" className="container section-last">
+        <section id="#contact" className="container section-contact">
             <h1 className="header" data-aos="fade-up">Contact</h1>
             <p data-aos="fade-up">Although I'm not seeking new opportunities at the moment, my inbox is always open. Feel free to reach out and I will get back to you as soon as possible!</p>
-            <p data-aos="fade-up"><a className="btn btn-primary btn-lg jumbotron-button" href="mailto:jay.bisa@gmail.com" role="button">Get In Touch</a></p>
+            <p data-aos="fade-up"><a className="btn btn-primary btn-lg jumbotron-button contact-button" href="mailto:jay.bisa@gmail.com" role="button">Get In Touch</a></p>
         </section>
     )
 }

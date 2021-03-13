@@ -9,13 +9,13 @@ const Experience = () => {
     }, []);
 
     return(
-        <section id="#experience" className="container py-5 section">
+        <section id="#experience" className="container py-5 section-exp">
             <h1 className="header" data-aos="fade-up">Experience</h1>
             <div className="grids">
                 <div data-aos="fade-right">
-                    <p className="timeline-year-text">2018-Present Day</p>
-                    <div className="boxes-title">
-                        <p className="centered highlight">Wayfair - Senior Software Engineer - Supplier Capabilities Engineering</p>
+                    <p className="timeline-year-text">2017-Present Day</p>
+                    <div className="boxes-title-sm">
+                        <p className="centered highlight">Wayfair - Senior Software Engineer</p>
                     </div>
                 </div>
                 <div data-aos="fade-right">
@@ -48,9 +48,9 @@ const Experience = () => {
                 </div>
                 <div data-aos="fade-right">
                     <div className="timeline-line"></div>
-                    <p className="timeline-year-text">2016-2018</p>
-                    <div className="boxes-title">
-                        <p className="centered highlight">Wayfair - Software Engineer - Checkout & Payments</p>
+                    <p className="timeline-year-text">2016-2017</p>
+                    <div className="boxes-title-sm">
+                        <p className="centered highlight">Wayfair - Software Engineer</p>
                     </div>
                 </div>
                 <div data-aos="fade-right">
@@ -76,7 +76,7 @@ const Experience = () => {
                 <div data-aos="fade-right">
                     <div className="timeline-line"></div>
                     <p className="timeline-year-text">2013-2016</p>
-                    <div className="boxes-title">
+                    <div className="boxes-title-sm">
                         <p className="centered highlight">Veracode - Software Engineer</p>
                     </div>
                 </div>
@@ -108,7 +108,7 @@ const Experience = () => {
                 <div data-aos="fade-right">
                     <div className="timeline-line"></div>
                     <p className="timeline-year-text">2012</p>
-                    <div className="boxes-title">
+                    <div className="boxes-title-sm">
                         <p className="centered highlight">Morpho Detection, Inc. - Software Design Intern</p>
                     </div>
                 </div>

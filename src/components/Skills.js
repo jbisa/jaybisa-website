@@ -94,7 +94,7 @@ const Skills = () => {
     }
 
     return(
-        <section id="#skills" className="container py-5 section">
+        <section id="#skills" className="container py-5 section-skills">
             <h1 className="header" data-aos="fade-up">Skills</h1>
             <ul data-aos="fade-up" className="list">
                 <li>0 - No Experience</li>
