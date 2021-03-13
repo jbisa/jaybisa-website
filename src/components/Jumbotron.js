@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Resume from '../assets/jay-bisa-resume-2021.pdf'
 
 class Jumbotron extends Component {
     render() {
@@ -11,7 +12,7 @@ class Jumbotron extends Component {
                     </div>
                     <div className="button">
                         <p className="lead">
-                            <a className="btn btn-primary btn-lg jumbotron-button" href="#" role="button">Resume</a>
+                            <a className="btn btn-primary btn-lg jumbotron-button" href={Resume} target="_blank" role="button">Resume</a>
                             <a className="btn btn-primary btn-lg jumbotron-button" href="mailto:jay.bisa@gmail.com" role="button">Get In Touch</a>
                         </p>
                     </div>
