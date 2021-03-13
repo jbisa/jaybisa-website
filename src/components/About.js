@@ -9,7 +9,7 @@ const About = () => {
     }, []);
 
     return(
-        <section id="#about" className="container py-5 section">
+        <section id="#about" className="container py-5 section-about">
             <h1 className="header" data-aos="fade-up">About</h1>
             <p data-aos="fade-up">I'm Jay and I'm a Software Engineer based in Boston, MA.</p>
             <p data-aos="fade-up">

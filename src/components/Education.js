@@ -9,19 +9,19 @@ const Education = () => {
     }, []);
 
     return(
-        <section id="#education" className="container py-5 section">
+        <section id="#education" className="container py-5 section-edu">
             <h1 className="header" data-aos="fade-up">Education</h1>
             <div className="grids">
                 <div data-aos="fade-right">
                     <p className="timeline-year-text">2011-2013</p>
-                    <div className="boxes-title">
+                    <div className="boxes-title-sm">
                         <p className="centered highlight">Syracuse University - MS, Computer Science</p>
                     </div>
                 </div>
                 <div data-aos="fade-right">
                     <div className="timeline-line"></div>
                     <p className="timeline-year-text">2006-2010</p>
-                    <div className="boxes-title">
+                    <div className="boxes-title-md">
                         <p className="centered highlight">Worcester Polytechnic Institute - BS, Biomedical Engineering - Minor, Electrical & Computer Engineering</p>
                     </div>
                 </div>

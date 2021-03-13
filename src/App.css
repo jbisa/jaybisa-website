@@ -47,12 +47,27 @@ html, body {
   color: #006992;
 }
 
-.section {
+.section-about {
   padding-top: 10rem !important;
   padding-bottom: 50rem !important;
 }
 
-.section-last {
+.section-exp {
+  padding-top: 10rem !important;
+  padding-bottom: 50rem !important;
+}
+
+.section-edu {
+  padding-top: 10rem !important;
+  padding-bottom: 50rem !important;
+}
+
+.section-skills {
+  padding-top: 10rem !important;
+  padding-bottom: 50rem !important;
+}
+
+.section-contact {
   padding-bottom: 30rem !important;
 }
 
@@ -102,8 +117,35 @@ html, body {
     color: #006992;
   }
 
-  .section {
-    padding-top: 2rem !important;
+  .section-about {
+    padding-top: 5rem !important;
     padding-bottom: 50rem !important;
+    height: 500px !important;
+  }
+  
+  .section-exp {
+    padding-top: 5rem !important;
+    padding-bottom: 30rem !important;
+    height: 3400px !important;
+  }
+  
+  .section-edu {
+    padding-top: 5rem !important;
+    padding-bottom: 20rem !important;
+  }
+  
+  .section-skills {
+    padding-top: 5rem !important;
+    padding-bottom: 5rem !important;
+  }
+  
+  .section-contact {
+    padding-bottom: 5rem !important;
+  }
+
+  .contact-button {
+    margin: 0 auto;
+    width: 150px;
+    display: block;
   }
 }
