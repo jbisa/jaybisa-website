@@ -6,4 +6,5 @@ My personal website: http://jaybisa.com/ . This is a ReactJS application hosted 
 
 In order to run this website on your local machine, run the following in the root directory:
 
+`npm install`
 `npm start`
