@@ -8,7 +8,7 @@ class Jumbotron extends Component {
                 <div className="container container-jumbotron">
                     <div className="jumbotron-text-box py-5">
                         <h1 className="display-4">Hi, I'm Jay Bisa.</h1>
-                        <h2>I build software to solve business problems!</h2>
+                        <h2>I build software to solve business problems.</h2>
                     </div>
                     <div className="button">
                         <p className="lead">
